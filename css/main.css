@@ -1,0 +1,66 @@
+/*  
+    
+    Author: Jamin Pottle    
+    Date: 5.21.18
+
+    file: main.css
+
+*/
+
+
+/* Header Styles */
+
+header {
+    background: url(../images/azsky.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    opacity: .9;
+}
+
+h1#jaminpottle {
+    text-align: center;
+    font-size: 10rem;
+    color: rgba(233, 224, 224, 0.932);
+}
+
+.infoButtons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactButton,
+#resumeButton {
+    font-size: 1.5em;
+    border: 2px solid;
+    border-radius: 0;
+}
+
+#contactButton {
+    margin-right: 7.5px;
+}
+
+#resumeButton {
+    margin-left: 7.5px;
+}
+
+
+/* Media Queries */
+
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+    header {
+        background: none;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+}
